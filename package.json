@@ -6,11 +6,7 @@
     "scripts": {
         "test": "cucumber-js",
         "test-chrome": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\"",
-        "test-ie": ".cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"ie\\\"}\"",
-        "test-edge": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"edge\\\"}\"",
-        "test-firefox": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"firefox\\\"}\"",
-        "test-opera": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"opera\\\"}\"",
-        "test-safari": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"safari\\\"}\""
+        "test-ie": ".cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"ie\\\"}\""
     },
     "keywords": [],
     "author": "daniel velazco",

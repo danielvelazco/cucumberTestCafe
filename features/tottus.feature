@@ -9,6 +9,7 @@ Feature: Consulta de sucursales
         When Busco "tottus sucursales"
         When Selecciono tottus nataniel
         When Hago click en el boton sitio web
+        When timeout
         When Hago click en recetas y mas 
         Then Selecciono Dificultad alta
         Then Busco corona de Rollitos de canela

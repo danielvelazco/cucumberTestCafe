@@ -28,10 +28,10 @@ When('Hago click en el boton sitio web', async function() {
 });
 
 When('Hago click en recetas y mas', async function() {
-    const imgRecetas = Selector('#new_tottus_nav_cliente')
-        .child('ul')
-        .nth(2)
-        .with({ boundTestRun: testController });
+    const imgRecetas = Selector('a').withAttribute('href', 'http://www.tottusrecetas.cl').with({ boundTestRun: testController });
+    /*const imgRecetas = Selector('div').withAttribute('id', 'new_tottus_nav_cliente')
+        .child('ul').nth(2)
+        .with({ boundTestRun: testController });*/
 
     await testController.click(imgRecetas);
 });

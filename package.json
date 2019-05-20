@@ -1,0 +1,22 @@
+{
+    "name": "testcafe-cucumber",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "cucumber-js",
+        "test-chrome": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\"",
+        "test-ie": ".cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"ie\\\"}\"",
+        "test-edge": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"edge\\\"}\"",
+        "test-firefox": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"firefox\\\"}\"",
+        "test-opera": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"opera\\\"}\"",
+        "test-safari": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"safari\\\"}\""
+    },
+    "keywords": [],
+    "author": "daniel velazco",
+    "license": "ISC",
+    "dependencies": {
+        "cucumber": "^5.1.0",
+        "testcafe": "^1.1.4"
+    }
+}

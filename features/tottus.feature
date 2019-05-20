@@ -10,3 +10,7 @@ Feature: Consulta de sucursales
         When Selecciono tottus nataniel
         When Hago click en el boton sitio web
         When Hago click en recetas y mas 
+        Then Selecciono Dificultad alta
+        Then Busco corona de Rollitos de canela
+        Then valido que la receta tenga canela
+        Then valido que la receta tenga azucar rubia

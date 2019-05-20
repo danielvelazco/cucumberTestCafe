@@ -35,3 +35,23 @@ When('Hago click en recetas y mas', async function() {
 
     await testController.click(imgRecetas);
 });
+
+Then('Selecciono Dificultad alta', function() {
+    // Write code here that turns the phrase above into concrete actions
+    return 'pending';
+});
+
+Then('Busco corona de Rollitos de canela', function() {
+    // Write code here that turns the phrase above into concrete actions
+    return 'pending';
+});
+
+Then('valido que la receta tenga canela', function() {
+    // Write code here that turns the phrase above into concrete actions
+    return 'pending';
+});
+
+Then('valido que la receta tenga azucar rubia', function() {
+    // Write code here that turns the phrase above into concrete actions
+    return 'pending';
+});
